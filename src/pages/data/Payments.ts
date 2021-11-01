@@ -1,13 +1,4 @@
-export type Payment = {
-  id: string,
-  dueDate: Date,
-  status: PaymentStatus,
-  category: string,
-  description: string,
-  amount: number
-}
-
-export type PaymentStatus = 'Unpaid' | 'Paid';
+import { Payment } from "./payment2";
 
 export class Payments {
   static instance: Payment[] = [
