@@ -1,4 +1,4 @@
-import { Payment } from "./payment2";
+import { Payment } from "./Payment";
 
 export class Payments {
   static instance: Payment[] = [

@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { ErrorResponse } from '../ErrorResponse'
-import { Payment } from '../../data/payment2'
+import { Payment } from '../../data/Payment'
 import { Payments } from '../../data/Payments'
 import { delay } from '../delay';
 
