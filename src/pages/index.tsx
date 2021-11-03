@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../../styles/Index.module.css";
 
-// This is the index page for your application - since it is a a single page, it will be responsable for hosting all of your components.
+// This is the index page for your application - since it is a single page, it will be responsible for hosting all of your components.
 // Make changes to this file to get started - the only thing required here is a default export that is a React component.
 // Some starter code has been provided to get you going - this is just an example and does not indicate any code, patterns, styles, or naming conventions
 // we want you to use or follow. Feel free to change it as you see fit.

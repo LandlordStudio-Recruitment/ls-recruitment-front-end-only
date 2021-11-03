@@ -47,12 +47,7 @@ A basic index page has been fleshed out for you that fetches raw payment data fr
 Please make commits/PRs to this repository like you would at work.
 
 > **NOTE:**  
-> The frontend repository was created using Next.js.  
-> This is because it
->
-> - Is a convenient framework to build a React web app with a self-contained API.
-> - Something we use here at Landlord Studio.
->
+> This project was created using Next.js, a tool we use here at Landlord Studio. It provides tools to build a React web app with a self-contained API.  
 > You shouldn't need to use or know anything Next.js specific to complete this test, if you want/need to know more however, documentation can be found [here](https://nextjs.org/docs).
 
 ### API <a name="API"></a>
