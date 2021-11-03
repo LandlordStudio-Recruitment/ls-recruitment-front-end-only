@@ -1,6 +1,7 @@
-import type { NextApiRequest, NextApiResponse } from 'next'
-import { ErrorResponse } from '../../../api'
-import { Payment, Payments } from '../../data/payment'
+import type { NextApiRequest, NextApiResponse } from 'next';
+import { ErrorResponse } from '../ErrorResponse';
+import { Payment } from '../../data/Payment';
+import { Payments } from '../../data/Payments';
 import { delay } from '../delay';
 
 export default async function handler(
