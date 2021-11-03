@@ -53,7 +53,7 @@ Please make commits/PRs to this repository like you would at work.
 > - Is a convenient web server to house a web app with a self-contained API.
 > - Something we use here at Landlord Studio.
 >
-> You should not need to use or know anything Next.js specific to complete this test, if you want/need to know more however, documentation can be found [here](https://nextjs.org/docs).
+> You shouldn't need to use or know anything Next.js specific to complete this test, if you want/need to know more however, documentation can be found [here](https://nextjs.org/docs).
 
 ### API <a name="API"></a>
 
