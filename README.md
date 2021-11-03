@@ -42,7 +42,7 @@ The result of that call should be used to then update the status of that transac
 
 **To get started, make changes to `~/src/pages/index.ts`.**
 
-A basic index page has been fleshed out for you that fetches raw payment data from the API - this is just an example any does not indicate any code, patterns, styles or naming convetions that we expect you to follow or use, feel free to make changes as you see fit.
+A basic index page has been fleshed out for you that fetches raw payment data from the API - this is just an example and does not indicate any code, patterns, styles, or naming convetions that we expect you to follow or use, feel free to make changes as you see fit.
 
 Please make commits/PRs to this repository like you would at work.
 
@@ -50,7 +50,7 @@ Please make commits/PRs to this repository like you would at work.
 > The frontend repository was created using Next.js.  
 > This is because it
 >
-> - Is a convenient web server to house a web app with a self-contained API.
+> - Is a convenient framework to build a React web app with a self-contained API.
 > - Something we use here at Landlord Studio.
 >
 > You shouldn't need to use or know anything Next.js specific to complete this test, if you want/need to know more however, documentation can be found [here](https://nextjs.org/docs).
