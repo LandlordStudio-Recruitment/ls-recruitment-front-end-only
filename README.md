@@ -65,8 +65,8 @@ This exposes two routes;
   **Note**: Payment amounts returned from the API will be in cents and must be converted to dollars.
 - **PATCH** `http://localhost:3000/api/payments/{id}/pay` - Flags an eligible payment as being paid.
 
-The code that controls these two APIs in location under `~/src/pages/api`.  
-You should not need to make changes here to complete the test, but you can do so if you wish.
+The code that defines these two endpoints is located under `~/src/pages/api`.  
+You shouldn't need to make changes here to complete the test, but you can do so if you wish.
 
 ## Running the frontend project
 
