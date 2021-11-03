@@ -14,6 +14,8 @@ You will be assessed based on the following being met:
 
 - Your website roughly looks like the provided [design](./design-spec/payment_list.png) (please note that nothing has to be exact in terms of the look of the site).
 
+If you run into any issues, or if anything is unclear, please contact us - any feedback will help us improve our test.
+
 ---
 
 ## Frontend
@@ -27,12 +29,12 @@ A basic design for the website can be found [here](./design-spec/payment_list.pn
 **NB:**
 You are not expected to match any of the styles, colours, fonts etc in the given design images exactly. These are just guidelines for how we would roughly like the site to be laid out and look.
 
-When the user navigates to the `Dashboard` for the first time, fetch upcoming rent payments from the included [API](#API), and format them in client readable results.
+When the user navigates to the `Dashboard` for the first time, fetch upcoming rent payments from the included [API](#API), and format them in user readable results.
 
 - The payment due dates should be formatted as MMM DD.
-- The status of each payment should be blank, `Paid`, or `Overdue` depending on the payments status and due date.
-- A pay button should only be displayed for payments that are not `Paid`
-- The amount should be formatted as a US dollar amount (e.g. \$10.00)  
+- The status of each payment should be `Paid` or `Unpaid`, depending on the payments status.
+- A pay button should only be displayed for payments that are not `Paid`.
+- The amount should be formatted as a US dollar amount (e.g. \$10.00).
   **Note**: Payment amounts returned from the API will be in cents and must be converted to dollars.
 - Payments should be listed in ascending chronological order.
 
@@ -40,7 +42,7 @@ If a user clicks on the `Pay` button, a dialog detailed [here](./design-spec/pay
 Upon confirmation, a call should be made to the API that updates the state of that payment to `Paid`.  
 The result of that call should be used to then update the status of that transaction in the list that is displayed to the user.
 
-**To get started, make changes to `~/src/pages/index.ts`.**
+**To get started, make changes to `~/src/pages/index.tsx`.**
 
 A basic index page has been fleshed out for you that fetches raw payment data from the API - this is just an example and does not indicate any code, patterns, styles, or naming convetions that we expect you to follow or use, feel free to make changes as you see fit.
 
