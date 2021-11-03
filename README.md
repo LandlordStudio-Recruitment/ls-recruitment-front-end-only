@@ -31,7 +31,7 @@ When the user navigates to the `Dashboard` for the first time, fetch upcoming re
 
 - The payment due dates should be formatted as MMM DD.
 - The status of each payment should be blank, `Paid`, or `Overdue` depending on the payments status and due date.
-- The pay button should only be displayed for payments that are not `Paid`
+- A pay button should only be displayed for payments that are not `Paid`
 - The amount should be formatted as a US dollar amount (e.g. \$10.00)  
   **Note**: Payment amounts returned from the API will be in cents and must be converted to dollars.
 - Payments should be listed in ascending chronological order.
