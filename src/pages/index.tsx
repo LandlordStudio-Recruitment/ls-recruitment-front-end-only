@@ -6,12 +6,10 @@ import styles from "../../styles/Index.module.css";
 // Some starter code has been provided to get you going - this is just an example and does not indicate any code, patterns, styles, or naming conventions
 // we want you to use or follow. Feel free to change it as you see fit.
 export default function Index() {
-  const { payments, error } = useFetchPayments();
+  const { data, error } = useFetchData();
 
-  const elPaymentsData = payments ? (
-    <code className={styles.code}>
-      {JSON.stringify(payments, undefined, 4)}
-    </code>
+  const elPaymentsData = data ? (
+    <code className={styles.code}>{JSON.stringify(data, undefined, 4)}</code>
   ) : error ? (
     <span>{`Error fetching payments: ${error.message}`}</span>
   ) : (
@@ -55,10 +53,10 @@ export default function Index() {
   );
 }
 
-const useFetchPayments = () => {
+const useFetchData = () => {
   const [status, setStatus] = useState<{
     error?: Error;
-    payments?: any;
+    data?: any;
   }>({});
 
   const fetchPayments = async () => {
@@ -66,7 +64,7 @@ const useFetchPayments = () => {
       const res = await fetch("http://localhost:3000/api/payments");
 
       if (res.status >= 200 && res.status < 300) {
-        setStatus({ payments: await res.json() });
+        setStatus({ data: await res.json() });
       } else {
         setStatus({
           error: Error(
