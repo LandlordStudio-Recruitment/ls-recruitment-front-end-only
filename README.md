@@ -57,7 +57,7 @@ Please make commits/PRs to this repository like you would at work.
 
 ### API <a name="API"></a>
 
-As part of the Next.js application, an inbuilt API has been provided.
+As part of the web app, an inbuilt API has been provided.
 
 This exposes two routes;
 
